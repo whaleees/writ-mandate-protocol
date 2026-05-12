@@ -1,0 +1,21 @@
+[toolchain]
+package_manager = "npm"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+mandate_signing = "22m5A3ezi2qoBKESrQbQ1g5jwQ9denrwegpSm7yrC9Eh"
+
+[programs.devnet]
+mandate_signing = "22m5A3ezi2qoBKESrQbQ1g5jwQ9denrwegpSm7yrC9Eh"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "cargo test"
+
+[hooks]
