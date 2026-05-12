@@ -16,7 +16,7 @@
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "@sdk/*": ["../sdk/src/*"]
+      "@sdk/*": ["./src/sdk/*"]
     }
   },
   "include": ["src"]

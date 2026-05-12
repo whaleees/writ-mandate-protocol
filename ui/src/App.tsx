@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { useConnection, useAnchorWallet } from '@solana/wallet-adapter-react'
 import { WalletMultiButton } from '@solana/wallet-adapter-react-ui'
 import { Keypair, PublicKey } from '@solana/web3.js'
-import idl from '../../target/idl/mandate_signing.json'
+import idl from './idl/mandate_signing.json'
 
 const PROGRAM_ID = new PublicKey('22m5A3ezi2qoBKESrQbQ1g5jwQ9denrwegpSm7yrC9Eh')
 
